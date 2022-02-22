@@ -1,4 +1,6 @@
 <h1>Dining Concierge Assistant </h1>
+<h2>https://eecs6998-hw1-yz4131.s3.amazonaws.com/chat.html</h2>
+
 Customer Service is a core service for a lot of businesses around the world
 and it is getting disrupted at the moment by Natural Language Processing-
 powered applications. In this first assignment you will implement a
