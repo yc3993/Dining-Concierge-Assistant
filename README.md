@@ -13,6 +13,9 @@ a set of preferences that you provide the chatbot with through conversation.
   <li>Build a Dining Concierge chatbot using Amazon Lex</li>
   <li>Use the Yelp API to collect 5,000+ random restaurants from Manhattan. Store the restaurants in DynamoDB </li>
   <li>Create an ElasticSearch instance using the AWS ElasticSearch Service.</li> 
-  <li>Create a new Lambda function (LF2) that acts as a queue worker. Whenever it is invoked it 1. pulls a message from the SQS queue (Q1) 2. gets a random restaurant recommendation for the cuisine collected through conversation from ElasticSearch and DynamoDB, 3. formats them and 4. sends them over text message to the phone number included in the SQS message, using SNS and set up a CloudWatch event trigger that runs every minute <li>  
+  <li>Create a new Lambda function (LF2) that acts as a queue worker. Whenever it is invoked it 1. pulls a message from the SQS queue (Q1) 2. gets a random restaurant recommendation for the cuisine collected through conversation from ElasticSearch and DynamoDB, 3. formats them and 4. sends them over text message to the phone number included in the SQS message, using SNS and set up a CloudWatch event trigger that runs every minute </li>  
 </ol>
 
+
+
+<img width="721" alt="image" src="https://user-images.githubusercontent.com/90934485/155042098-5b2e4848-30cf-48be-9fdc-c57e1dae9716.png">
